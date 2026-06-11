@@ -1,261 +1,368 @@
-# 🛒 E-Commerce Web Application
-
-A dynamic full-stack e-commerce platform built using PHP and MySQL, featuring secure user authentication, product management, shopping cart, and a seamless checkout experience.
- It is designed to simulate a real-world online shopping experience with a clean and user-friendly interface.
-
- ## 🚀 Features
-- User Authentication (Login/Signup)
-- Category-Based Product Browsing
-- Add to Cart Functionality
-- Checkout System
-- Admin Product Management
-
-
-
-
-
-
-  ## 🛠 Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: PHP
-- Database: MySQL
-- Server: XAMPP
-
-- ## 📂 Project Structure
-/assets → Images & media  
-/css → Stylesheets  
-/js → Scripts  
-/php → Backend logic  
-/database → SQL files  
-
-
-
-
-## 🏠 Home Page:
-<img width="1920" height="1033" alt="homeup" src="https://github.com/user-attachments/assets/47fbf715-0801-41c1-b285-26bd151bc86a" />
-<img width="1920" height="1049" alt="homedown" src="https://github.com/user-attachments/assets/75f063ad-912c-49c6-b6c6-bde295104b93" />
-
-## 🛠️ Admin Page
-<img width="1920" height="1033" alt="admin" src="https://github.com/user-attachments/assets/940122fc-e418-4259-92cb-3e869ef3d700" />
-
-
-## 📝 Signup Page:
-<img width="1920" height="1044" alt="signup" src="https://github.com/user-attachments/assets/15876b7f-398f-448d-9ddd-7e7b69bfbb01" />
-
-## 🔐 Login Page:
-<img width="1920" height="1040" alt="login" src="https://github.com/user-attachments/assets/a3a7a1ed-e4c3-4cfb-8b6a-4cbcc559b81e" />
-
-### 🗂️ Category Page:
-<img width="1920" height="1046" alt="shop" src="https://github.com/user-attachments/assets/2b154024-7194-43c1-9dd3-0bc475e28d6d" />
-<img width="1920" height="1040" alt="categories down" src="https://github.com/user-attachments/assets/5aff1d8b-8a7e-4da4-b302-f7205a320090" />
-
-
-## 📞 Contact Us:
-<img width="1920" height="1034" alt="contact up" src="https://github.com/user-attachments/assets/6e01c353-26e6-4e77-b29f-739fde75ffc5" />
-<img width="1920" height="1044" alt="contact down" src="https://github.com/user-attachments/assets/006a6f69-23ce-478f-8af1-96b32bf0f3f7" />
-
-## 📄 About:
-<img width="1920" height="1037" alt="about up" src="https://github.com/user-attachments/assets/44a8fd5e-ee37-4775-8524-5e358065d68b" />
-<img width="1920" height="1033" alt="down about" src="https://github.com/user-attachments/assets/8d6535a9-515a-425e-9591-1ae5b9a399d8" />
- 🛒 Cart Page:
-<img width="1920" height="1036" alt="cart page" src="https://github.com/user-attachments/assets/b25fe167-9dda-44b0-b5bd-6f38c2dc6ab3" />
-
-
-## ▶️ Run Locally
-1. Install XAMPP
-2. Move project to `htdocs`
-3. Start Apache & MySQL
-4. Open 'http://localhost/ecommerce-App/'
-
-   
-## 🎥 **Live Demo**
-👉 **[View E-Commerce Website](https://your-demo-link-here)**
-
-https://github.com/user-attachments/assets/ab9c82a3-1615-4feb-b0be-3dc80b82d424
-
-
-https://github.com/user-attachments/assets/79c2ef82-3346-43e9-97a2-976c7132cc34
-
-
-
-
-https://github.com/user-attachments/assets/a4c6ed4a-1762-40d8-9119-6c40de41d5e1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ShopHub E-commerce Website
-
-A complete, modern e-commerce website built with HTML, CSS, JavaScript, jQuery, Bootstrap 5, MDBootstrap, PHP, and MySQL.
-
-## Features
-
-### Frontend (User Website)
-- **Home Page**: Hero section with banner slider, featured categories, and trending products grid
-- **Shop Page**: Product listing with category filter, search bar, and sorting options
-- **Product Detail Page**: Product images carousel, price, description, reviews section, "Add to Cart" button, and related products
-- **Cart Page**: View cart items, update quantity, remove item, display subtotal and total
-- **Checkout Page**: Billing/shipping form with mock payment confirmation
-- **User Authentication**: Login, Signup, and Forgot Password pages connected to MySQL database
-- **User Dashboard**: Profile management, order history, and logout feature
-
-### Backend (PHP + MySQL)
-- **Database**: Complete e-commerce database with tables for users, products, orders, order items, categories, reviews, and admin users
-- **Session Management**: PHP sessions for cart management and user login
-- **Admin Panel**: Separate admin login with role validation
-- **Dashboard**: Statistics showing total users, products, orders, and sales chart using Chart.js
-- **Product Management**: Add, edit, delete products with image upload
-- **Order Management**: View orders, update order status (pending, shipped, delivered)
-- **User Management**: View or delete users
-
-### Technical Features
-- **Responsive Design**: Fully responsive layout using Bootstrap 5
-- **Modern UI**: Uses Poppins and Montserrat fonts with smooth animations and shadows
-- **AJAX**: Dynamic cart updates and form submissions
-- **Form Validation**: Both client-side (jQuery) and server-side (PHP) validation
-- **Security**: Input sanitization, password hashing, SQL injection prevention
-- **File Upload**: Product image upload with validation
-
-## Installation
-
-### Prerequisites
-- XAMPP or similar web server with PHP and MySQL
-- Web browser (Chrome, Firefox, Safari, etc.)
-
-### Setup Instructions
-
-1. **Clone/Download the Project**
-   ```bash
-   git clone <repository-url>
-   cd ecommerce-App
-   ```
-
-2. **Database Setup**
-   - Start XAMPP and launch phpMyAdmin
-   - Create a new database named `ecommerce`
-   - Import the `database.sql` file to create all necessary tables and sample data
-
-3. **Configure Database Connection**
-   - Open `includes/db_connect.php`
-   - Update the database credentials if needed:
-   ```php
-   $host = 'localhost';
-   $dbname = 'ecommerce';
-   $username = 'root';
-   $password = '';
-   ```
-
-4. **Start the Server**
-   - Start Apache and MySQL in XAMPP
-   - Navigate to `http://localhost/ecommerce-App` in your browser
-
-## Default Admin Login
-- **Username**: admin
-- **Password**: admin123
-
-## File Structure
-
-```
-ecommerce-App/
-├── admin/                  # Admin panel files
-│   ├── index.php          # Admin dashboard
-│   ├── login.php          # Admin login
-│   ├── logout.php         # Admin logout
-│   ├── products.php       # Product management
-│   └── ...
-├── user/                   # User account files
-│   ├── login.php          # User login
-│   ├── signup.php         # User registration
-│   ├── profile.php        # User profile
-│   ├── orders.php         # Order history
-│   └── ...
-├── includes/              # Shared components
-│   ├── header.php         # Website header
-│   ├── footer.php         # Website footer
-│   └── db_connect.php     # Database connection
-├── assets/                # Static assets
-│   ├── css/
-│   │   └── style.css      # Custom styles
-│   ├── js/
-│   │   └── script.js      # Custom JavaScript
-│   └── images/            # Product images
-├── index.php              # Home page
-├── shop.php               # Shop page
-├── product.php            # Product details
-├── cart.php               # Shopping cart
-├── checkout.php           # Checkout process
-├── order_success.php      # Order confirmation
-└── database.sql           # Database schema and sample data
-```
-
-## Usage
-
-### For Users
-1. Browse products on the home page or shop page
-2. View product details and add items to cart
-3. Proceed to checkout and place orders
-4. Create an account to track orders and manage profile
-
-### For Administrators
-1. Login to admin panel at `/admin/login.php`
-2. View dashboard statistics and sales charts
-3. Manage products (add, edit, delete)
-4. Process orders and update status
-5. Manage users and categories
-
-## Technologies Used
-
-- **Frontend**: HTML5, CSS3, JavaScript, jQuery
-- **Frameworks**: Bootstrap 5, MDBootstrap
-- **Backend**: PHP 8+
-- **Database**: MySQL
-- **Charts**: Chart.js
-- **Fonts**: Google Fonts (Poppins, Montserrat)
-- **Icons**: Font Awesome
-
-## Security Features
-
-- SQL injection prevention using prepared statements
-- XSS protection with input sanitization
-- Password hashing using PHP's password_hash()
-- Session management for authentication
-- File upload validation for product images
-
-## Browser Support
-
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is for educational purposes. Feel free to use and modify as needed.
-
-## Support
-
-For any issues or questions, please check the code comments or create an issue in the repository.
+# 🛍️ ShopHub – Full Stack E-Commerce Web Application
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-Backend-blue?style=for-the-badge&logo=php">
+  <img src="https://img.shields.io/badge/MySQL-Database-orange?style=for-the-badge&logo=mysql">
+  <img src="https://img.shields.io/badge/Bootstrap-Frontend-purple?style=for-the-badge&logo=bootstrap">
+  <img src="https://img.shields.io/badge/XAMPP-Server-red?style=for-the-badge&logo=xampp">
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+</p>
+
+<p align="center">
+  A modern and fully responsive <b>Full Stack E-Commerce Website</b> built using <b>PHP, MySQL, HTML, CSS, JavaScript, Bootstrap 5</b>, and <b>jQuery</b>.
+</p>
 
 ---
 
-**Note**: This is a demonstration project. For production use, additional security measures and optimizations should be implemented.
+# ✨ Project Overview
+
+**ShopHub** is a dynamic e-commerce platform designed to simulate a real-world online shopping experience.
+The application provides secure authentication, product management, shopping cart functionality, order handling, and an admin dashboard.
+
+The project focuses on:
+
+* Responsive UI/UX
+* Secure backend architecture
+* Real-time cart interactions
+* Database-driven product management
+* Modern web technologies
+
+---
+
+# 🚀 Features
+
+## 👤 User Features
+
+* User Registration & Login
+* Secure Authentication System
+* Category-Based Product Browsing
+* Product Search & Filtering
+* Product Detail Page
+* Add to Cart Functionality
+* Quantity Update & Remove Cart Items
+* Checkout System
+* Order History
+* User Dashboard
+* Responsive Design for Mobile & Desktop
+
+---
+
+## 🛠️ Admin Features
+
+* Secure Admin Login
+* Admin Dashboard
+* Product Management
+
+  * Add Products
+  * Edit Products
+  * Delete Products
+* Order Management
+* User Management
+* Sales Statistics Dashboard
+* Image Upload Support
+
+---
+
+# 🧰 Tech Stack
+
+| Technology  | Usage                    |
+| ----------- | ------------------------ |
+| HTML5       | Structure                |
+| CSS3        | Styling                  |
+| JavaScript  | Frontend Interactivity   |
+| jQuery      | Dynamic UI               |
+| Bootstrap 5 | Responsive Design        |
+| MDBootstrap | UI Components            |
+| PHP         | Backend Development      |
+| MySQL       | Database                 |
+| Chart.js    | Analytics Dashboard      |
+| XAMPP       | Local Server Environment |
+
+---
+
+# 📁 Project Structure
+
+```bash
+ecommerce-App/
+│
+├── admin/                  # Admin panel files
+├── user/                   # User account pages
+├── includes/               # Shared PHP components
+├── assets/
+│   ├── css/                # Stylesheets
+│   ├── js/                 # JavaScript files
+│   └── images/             # Product images
+│
+├── database/               # SQL database files
+├── index.php               # Home page
+├── shop.php                # Shop page
+├── product.php             # Product details
+├── cart.php                # Cart page
+├── checkout.php            # Checkout page
+└── database.sql            # Database schema
+```
+
+---
+
+# 🔐 Security Features
+
+* SQL Injection Prevention using Prepared Statements
+* Password Hashing using `password_hash()`
+* Session-Based Authentication
+* Input Sanitization
+* File Upload Validation
+* XSS Protection
+
+---
+
+# 📸 Website Preview
+
+## 🏠 Home Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/47fbf715-0801-41c1-b285-26bd151bc86a">
+
+<img width="100%" src="https://github.com/user-attachments/assets/75f063ad-912c-49c6-b6c6-bde295104b93">
+
+---
+
+## 🛒 Shop Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/2b154024-7194-43c1-9dd3-0bc475e28d6d">
+
+<img width="100%" src="https://github.com/user-attachments/assets/5aff1d8b-8a7e-4da4-b302-f7205a320090">
+
+---
+
+## 🔐 Authentication Pages
+
+### Signup Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/15876b7f-398f-448d-9ddd-7e7b69bfbb01">
+
+### Login Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/a3a7a1ed-e4c3-4cfb-8b6a-4cbcc559b81e">
+
+---
+
+## 🛠️ Admin Dashboard
+
+<img width="100%" src="https://github.com/user-attachments/assets/940122fc-e418-4259-92cb-3e869ef3d700">
+
+---
+
+## 🛒 Cart Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/b25fe167-9dda-44b0-b5bd-6f38c2dc6ab3">
+
+---
+
+## 📞 Contact Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/6e01c353-26e6-4e77-b29f-739fde75ffc5">
+
+<img width="100%" src="https://github.com/user-attachments/assets/006a6f69-23ce-478f-8af1-96b32bf0f3f7">
+
+---
+
+## ℹ️ About Page
+
+<img width="100%" src="https://github.com/user-attachments/assets/44a8fd5e-ee37-4775-8524-5e358065d68b">
+
+<img width="100%" src="https://github.com/user-attachments/assets/8d6535a9-515a-425e-9591-1ae5b9a399d8">
+
+---
+
+# 🎥 Demo Videos
+
+## ▶️ Website Demo
+
+https://github.com/user-attachments/assets/ab9c82a3-1615-4feb-b0be-3dc80b82d424
+
+---
+
+## ▶️ Product & Cart Demo
+
+https://github.com/user-attachments/assets/79c2ef82-3346-43e9-97a2-976c7132cc34
+
+---
+
+## ▶️ Admin Panel Demo
+
+https://github.com/user-attachments/assets/a4c6ed4a-1762-40d8-9119-6c40de41d5e1
+
+---
+
+# ⚙️ Installation Guide
+
+## 📌 Prerequisites
+
+Make sure you have installed:
+
+* XAMPP / WAMP / LAMP
+* PHP 8+
+* MySQL
+* Modern Web Browser
+
+---
+
+# 🛠️ Setup Instructions
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone <repository-url>
+cd ecommerce-App
+```
+
+---
+
+## 2️⃣ Move Project to XAMPP
+
+Move the project folder into:
+
+```bash
+C:/xampp/htdocs/
+```
+
+---
+
+## 3️⃣ Start Apache & MySQL
+
+Open **XAMPP Control Panel** and start:
+
+* Apache
+* MySQL
+
+---
+
+## 4️⃣ Create Database
+
+* Open `phpMyAdmin`
+* Create a database named:
+
+```sql
+ecommerce
+```
+
+* Import:
+
+```bash
+database.sql
+```
+
+---
+
+## 5️⃣ Configure Database
+
+Open:
+
+```bash
+includes/db_connect.php
+```
+
+Update credentials if required:
+
+```php
+$host = 'localhost';
+$dbname = 'ecommerce';
+$username = 'root';
+$password = '';
+```
+
+---
+
+## 6️⃣ Run Project
+
+Open browser and visit:
+
+```bash
+http://localhost/ecommerce-App/
+```
+
+---
+
+# 🔑 Default Admin Credentials
+
+| Role  | Username | Password |
+| ----- | -------- | -------- |
+| Admin | admin    | admin123 |
+
+---
+
+# 📊 Database Modules
+
+The system contains the following tables:
+
+* users
+* admin_users
+* products
+* categories
+* orders
+* order_items
+* reviews
+* cart
+
+---
+
+# 📱 Responsive Design
+
+The application is fully responsive and works across:
+
+* Desktop 💻
+* Tablet 📱
+* Mobile 📲
+
+---
+
+# 🌟 Future Enhancements
+
+* Online Payment Gateway Integration
+* Wishlist Feature
+* Email Notifications
+* Invoice Generation
+* Product Ratings & Reviews
+* AI-Based Recommendations
+* Multi-Vendor Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit changes
+4. Push to branch
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is created for educational purposes.
+
+You are free to use and modify it.
+
+---
+
+# 👨‍💻 Developer
+
+Developed with ❤️ using PHP & MySQL
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+* Give it a ⭐ on GitHub
+* Share with others
+* Fork & contribute
+
+---
+
+<p align="center">
+  <b>🛒 ShopHub – Making Online Shopping Simple & Modern</b>
+</p>
